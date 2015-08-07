@@ -1,0 +1,63 @@
+/**
+ * @file contextMenu css style
+ * @author xucaiyu
+ * @email 569455187@qq.com
+ * @version 1.0.0
+ * @date 2015-05-21
+ * @license MIT License 
+ */
+/* tip */
+.x-tip{
+	position: absolute;
+	z-index: 999980;
+	padding: 6px;
+	background-color: #ffe37e;
+	border: 1px solid #febe27;
+	box-shadow: #fff 0 1px 0 0 inset;
+	width: auto;
+	color: #b55b00;
+}
+.x-tip-arrow{
+	position: absolute;
+	z-index: 999981;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	border: 6px solid #febe27;
+}
+.x-tip-bottom .x-tip-arrow{
+	border-top: none;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+.x-tip-top .x-tip-arrow{
+	border-bottom: none;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+.x-tip-left .x-tip-arrow{
+	border-right: none;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+}
+.x-tip-right .x-tip-arrow{
+	border-left: none;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+}
+.x-tip-shade{
+	border: 5px solid #FFE480;
+	border-top: none;
+	border-left-color: rgba(0, 0, 0, 0);
+	border-right-color: rgba(0, 0, 0, 0);
+	position: absolute;
+	z-index: 999982;
+	left: -5px;
+	top: 2px;
+}
+.x-tip span{
+	font-weight: bold;
+	padding-right: 15px;
+}
